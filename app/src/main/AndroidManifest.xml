@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.tour2sust">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sustlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/sustlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View_places" />
+        <activity android:name=".history_of_sust" />
+        <activity android:name=".IictBuilding" />
+        <activity android:name=".CentralMosque" />
+        <activity android:name=".Auditorium" />
+        <activity android:name=".Chetona71" />
+        <activity android:name=".ShahidMinar" />
+        <activity android:name=".KiloRoad" />
+        <activity android:name=".Iict360Imageview" />
+        <activity android:name=".Auditorium360Imageview" />
+        <activity android:name=".Mosque360Imageview" />
+        <activity android:name=".Chetona360Imageview" />
+        <activity android:name=".ShahidMinar360Imageview" />
+        <activity android:name=".KiloRoad360Imageview" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".AuditoriumMapActivity"
+            android:label="@string/title_activity_auditorium_map" />
+        <activity
+            android:name=".MosqueMapActivity"
+            android:label="@string/title_activity_mosque_map" />
+        <activity
+            android:name=".Chetona71MapActivity"
+            android:label="@string/title_activity_chetona71_map" />
+        <activity
+            android:name=".IictBuildingMapActivity"
+            android:label="@string/title_activity_iict_building_map" />
+        <activity
+            android:name=".KiloRoadMapActivity"
+            android:label="@string/title_activity_kilo_road_map" />
+        <activity
+            android:name=".ShahidMinarMapActivity"
+            android:label="@string/title_activity_shahid_minar_map" />
+    </application>
+
+</manifest>

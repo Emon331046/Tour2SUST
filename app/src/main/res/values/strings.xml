@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Tour 2 SUST</string>
+    <string name="description">
+
+        Motto         \t:   \t Inner spirit\n
+        Type          \t:    \t Public, coeducational\n
+        Established   \t:   \t 25 August 1986\n
+        Chancellor 	 \t:    \t President Abdul Hamid\n
+        Vice-Chancellor  \t:\t Farid Uddin Ahmed\n
+        Academic staff \t:  \t 1,508\n
+        Administ. staf \t:  \t 302\n
+        Students 	 \t:    \t 15,314\n
+        Location 	  \t:   \t Kumargaon, Sylhet, Bangladesh\n
+        Campus 	      \t:   \t Urban\n
+        Campus Area \t:     \t 320 acres\n
+        Academic dept. \t:  \t 28\n
+        Website 	   \t:  \t sust.edu
+
+    </string>
+
+    <string name="sustHistory">Shahjalal University of Science and Technology was established in 1986. The campus is located in Kumargaon, approximately five kilometers away from the heart of Sylhet City Centre. The university started its academic programme with three departments: physics, chemistry and economics. The first convocation of SUST was held on 29 April 1998 and the second convocation held on 6 December 2007.\n
+
+SUST is the first university in Bangladesh providing whole campus free Wi-fi access for students and staff. The university introduced an integrated honors course for the first time in Bangladesh[3] and it introduced the semester system (American credit system) from the 1996-97 session. According to the masterplan for the university, within a few years Shahjalal University of Science and Technology will be one of the finest institutions of the region.\n
+
+The university students invented and introduced the paperless 24/7 SMS Based Automated Registration of Admission Test procedure for the first time in Bangladesh. Interested students can complete the registration process through mobile phone messages. The contemporary government launched the system on 13 September 2009. For the invention, the University won an Ambillion Award in a competition of South Asian countries in 2010 and National Award for E-Content and ICT for Development Award 2010. Now, most of the public universities in Bangladesh have adopted this process of registration.
+    </string>
+    <string name="title_activity_auditorium360_imageview">Auditorium360Imageview</string>
+    <string name="title_activity_auditorium_map">Map</string>
+    <string name="title_activity_mosque_map">Map</string>
+    <string name="title_activity_chetona71_map">Map</string>
+    <string name="title_activity_iict_building_map">Map</string>
+    <string name="title_activity_kilo_road_map">Map</string>
+    <string name="title_activity_shahid_minar_map">Map</string>
+    <string name="title_activity_ucenter_maps">Map</string>
+
+</resources>
